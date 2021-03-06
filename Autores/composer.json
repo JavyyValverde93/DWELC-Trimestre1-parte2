@@ -1,0 +1,18 @@
+{
+    "name": "usuario/pdo",
+    "type": "project",
+    "license": "GNU/GPL",
+    "authors": [
+        {
+            "name": "JavyyValverde93",
+            "email": "javyyvalverde93@gmail.com"
+        }
+    ],
+    "config" :{"optimize-autoloader": true},
+    "autoload": {"psr-4":{
+        "Clases\\": "src"
+    }},
+    "require": {
+        "fakerphp/faker": "^1.10"
+    }
+}

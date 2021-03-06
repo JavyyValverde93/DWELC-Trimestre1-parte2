@@ -1,0 +1,23 @@
+{
+    "name": "oscarmartin/ejemplo1",
+    "description": "Primer Ejemplo PDO",
+    "type": "project",
+    "license": "GNU/GPL",
+    "authors": [
+        {
+            "name": "Oscar Martin",
+            "email": "oscarmartinc24@gmail.com"
+        }
+    ],
+    "config": {
+        "optimize-autoloader": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Clases\\":"src"
+        }
+    },
+    "require": {
+        "fakerphp/faker": "^1.10"
+    }
+}
